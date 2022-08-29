@@ -5,10 +5,19 @@ h1, h2, h3, h4, h5, h6 {
     
     font-family: 'Playfair Display', serif;
     font-weight: bold;
+    
 }
 
 h1 {
     font-size: 96px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #272142; 
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 40px;
 }
 
 h3 {
@@ -20,12 +29,28 @@ h3 {
     line-height: 40px;
 }
 
+h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #272142; 
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 40px;
+}
+
 p {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
+    font-size: 18px;
 }
 
+a {
+    text-decoration: none;
+    color: #6C63FF;
+}
 
+img {
+    max-width: 100%;
+}
 
 .hero {
     background-color: #F9F7FE;
@@ -53,4 +78,37 @@ p {
     background-color: #6C63FF;
     color: #ffff;
 }
+
+.learn {
+    color: #6C63FF;
+    border-color: #6C63FF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: medium;
+    border-radius: 4px;
+    background-color: #ffff;
+    padding: 18px 30px;
+}
+
+@media (max-width: 900px) {
+    
+    .container {
+        text-align: center;
+    }
+}
+
+@media (max-width: 750px) {
+    h1 {
+        font-size: 60px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+}
+
 
