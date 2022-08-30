@@ -70,6 +70,10 @@ img {
     padding: 0 15px;
 }
 
+.contact {
+    padding: 0;
+}
+
 .hero p {
     color: #272142;
     font-size: 36px;
@@ -91,6 +95,8 @@ img {
 .about-section img {
     border-radius: 4px;
 }
+
+
 
 .btn {
     background-color: #6C63FF;
