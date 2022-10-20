@@ -124,6 +124,37 @@ img {
     padding: 18px 30px;
 }
 
+.logo {
+    max-height: 40px;
+}
+
+nav {
+    padding: 40px 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+nav a {
+    color: rgb(108, 117, 125);
+}
+
+nav a:hover, nav li.active a {
+    color: #6C63FF;
+}
+
 @media (max-width: 900px) {
     
     .container {
