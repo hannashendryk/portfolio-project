@@ -37,6 +37,10 @@ h4 {
     padding-bottom: 40px;
 }
 
+h5 {
+    font-size: 48px;
+}
+
 p {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
@@ -50,6 +54,26 @@ a {
 
 img {
     max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    margin: 40px;
+}
+
+footer .contact-box a {
+    margin: 13px 0 0 0;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+
+.contact-box {
+    background-color: #F9F7FE;
+    padding: 30px 120px;
+    border-radius: 10px;
+    margin: 0 0 30px 0;
 }
 
 .hero {
@@ -96,8 +120,6 @@ img {
     border-radius: 4px;
 }
 
-
-
 .btn {
     background-color: #6C63FF;
     font-family: 'Poppins', sans-serif;
@@ -128,9 +150,34 @@ img {
     max-height: 40px;
 }
 
+.email-link {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+}
+
+.email-link:hover {
+    color: #6C63FF;
+}
+
+.social-links a {
+    margin: 0 20px;
+    background-color: #F9F7FE;
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.social-links a:hover {
+    color: #F9F7FE;
+    background-color: #6C63FF;
+}
+
 nav {
     padding: 40px 0;
 }
+
+
 
 nav ul {
     padding: 0;
