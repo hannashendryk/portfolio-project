@@ -79,7 +79,7 @@ footer .contact-box p {
 .hero {
     background-color: #F9F7FE;
     text-align: center;
-    padding: 170px 20px;
+    padding: 120px 20px;
 }
 
 .about-section {
@@ -102,6 +102,10 @@ footer .contact-box p {
     color: #272142;
     font-size: 36px;
     font-weight: bold;
+}
+
+.about-section {
+    padding-top: 60px;
 }
 
 .about-section h1 {
